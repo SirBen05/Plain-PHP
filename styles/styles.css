@@ -1,0 +1,75 @@
+#main{
+  min-height:100vh;
+  padding: 70px;
+  overflow: auto;
+}
+
+.bg-black{
+  background-color: #000;
+}
+
+table{
+    width: 100%;  
+    background-color: #eff9e5;
+}
+
+table, th, td{
+    border: 0.5px solid #000;
+}
+
+label{
+    display: inline-block;
+    min-width: 120px;
+    margin: 5px 10px;
+}
+
+input[type="submit"]{
+    margin: 5px 0;
+}
+
+.header-1{
+    text-align: center;
+    color: #2b4214;
+}
+.error-text{
+    color:brown;
+    font-weight: 900;
+}
+
+.btn-col{
+    width: 55px;
+}
+
+input[type="submit"].delete-btn{
+    background: radial-gradient( red 35%, brown);
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+}
+
+input[type="submit"].delete-btn:hover{
+    background: radial-gradient( red 50%, brown);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"].update-btn{
+    background: radial-gradient(green 35%, darkgreen);
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+}
+
+input[type="submit"].update-btn:hover{
+    background: radial-gradient(green 50%, darkgreen);
+    color: white;
+    cursor: pointer;
+}
+
+/* .modal-open{
+    filter: blur(2px) grayscale(60%)
+} */

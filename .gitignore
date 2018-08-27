@@ -1,0 +1,4 @@
+// Ignoring all vs code
+*.vscode
+*.idea
+node_modules/
